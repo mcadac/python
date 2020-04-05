@@ -31,3 +31,13 @@
 
   ````
 
+- Exceptions
+  ````
+  animals = ['rabbit', 'dog', 'cat']
+  try:
+    cat_index = animals.index('bear')
+  except:
+    cat_index = 'Animal not found'
+  print(cat_index)
+
+  ````
