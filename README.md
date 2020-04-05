@@ -59,6 +59,17 @@
       current_index += 1
 
   ````
+
+- Dictionaries
+  - These are like a map (key, value)
+ ````
+    contacts_dictionary = {'milo': '123456', 'lina': '45677', 'mommy': '345665'}
+    print(contacts_dictionary)
+    contacts_dictionary['gordo'] = '321245'
+    print(contacts_dictionary)
+    print(len(contacts_dictionary))
+
+ ````
  
  ## Exercises
  
