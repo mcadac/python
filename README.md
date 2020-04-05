@@ -41,3 +41,25 @@
   print(cat_index)
 
   ````
+
+- Loops
+  
+  ````
+  animals = ['rabbit', 'dog', 'cat']
+  print('-' * 20 + ' For loop' + '-' * 20)
+  for animal in animals:
+      print(animal)
+
+  print('-' * 20 + ' For loop with index' + '-' * 20)
+  for index in range(3):
+      print(animals[index])
+
+  print('-' * 20 + ' while loop' + '-' * 20)
+  current_index = 0
+  while current_index < len(animals):
+      print(animals[current_index])
+      current_index += 1
+
+  ````
+  
+  
