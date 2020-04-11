@@ -117,3 +117,4 @@ except:
   ## References
   
 -  https://towardsdatascience.com/whats-init-for-me-d70a312da583
+- https://github.com/databricks/spark-redshift
