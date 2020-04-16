@@ -114,6 +114,31 @@ except:
       print(task)
   ````
   
+- Example dates
+
+  ````
+  from datetime import datetime, timedelta
+
+  start_date = datetime(2020, 3, 30)
+  print("Start date: {}".format(start_date))
+
+  for day in range(15):
+
+    base_day = (start_date + timedelta(days=day))
+    dateFormat = "%Y-%m-%d %H:%M:%S"
+
+    today = base_day.replace(hour=00, minute=00, second=00, microsecond=00)
+    yesterday = (today - timedelta(days=1)).replace(hour=00, minute=00, second=00, microsecond=00)
+
+    dateUpperLimit = today.strftime(dateFormat)
+    dateLowerLimit = yesterday.strftime(dateFormat)
+
+    print("From : {}".format(dateLowerLimit))
+    print("To : {}".format(dateUpperLimit))
+    print("\n")
+
+  ````
+  
   ## References
   
 -  https://towardsdatascience.com/whats-init-for-me-d70a312da583
